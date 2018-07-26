@@ -7,10 +7,8 @@ public class Hello
 	{
 		MyFrame myframe = new MyFrame("Hello World");
 		JLabel jlabel = new JLabel("Hello World");
-		JLabel jlabel2 = new JLabel("Hello Wolrd");
 		myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         myframe.getContentPane().add(jlabel);
-        myframe.getContentPane().add(jlabel2);
         myframe.setVisible(true);
 
 	}

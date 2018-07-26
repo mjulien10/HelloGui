@@ -13,7 +13,7 @@ public class Hello
         
         String answer = JOptionPane.showInputDialog("What is your name?");
         JOptionPane.showMessageDialog(null, "Hello " + answer , "alert", JOptionPane.DEFAULT_OPTION);
-
+        JOptionPane.showMessageDialog(null, "Hello " + answer , "alert", JOptionPane.DEFAULT_OPTION);
 	}
 
 }
